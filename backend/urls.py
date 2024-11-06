@@ -1,5 +1,5 @@
 """
-URL configuration for foot_detection_backend project.
+URL configuration for backend project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('foot_detection/', include('foot_detection.urls')),
+    path('shoe_app/', include('shoe_app.urls')),
 ]
